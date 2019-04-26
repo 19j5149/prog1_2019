@@ -76,4 +76,94 @@ a=5
 for x in range(7):
     a=a+5
     print(a, end=" ")
-    わからない
+    
+a=0
+b=0
+a=a+1
+b=b+a
+print(b, end=" ")
+a=a+1
+b=b+a
+print(b, end=" ")
+a=a+1
+b=b+a
+print(b, end=" ")
+a=a+1
+b=b+a
+print(b, end=" ")
+a=a+1
+b=b+a
+print(b, end=" ")
+a=a+1
+b=b+a
+print(b, end=" ")
+a=a+1
+b=b+a
+print(b, end=" ")
+
+a=0
+b=0
+for x in range(7):
+    a=a+1
+    b=b+a
+    print(b, end=" ")
+    
+a=10
+b=0
+b=b+a
+a=a+5
+print(b, end=" ")
+b=b+a
+a=a+5
+print(b, end=" ")
+b=b+a
+a=a+5
+print(b, end=" ")
+b=b+a
+a=a+5
+print(b, end=" ")
+b=b+a
+a=a+5
+print(b, end=" ")
+b=b+a
+a=a+5
+print(b, end=" ")
+b=b+a
+a=a+5
+print(b, end=" ")    
+
+a=10
+b=0
+for x in range(7):
+    b=b+a
+    a=a+5
+    print(b/(x+1), end=" ")
+    
+a=1
+b=1
+c=a+b
+print(a,b,c, end=" ")
+for x in range(7):
+    a=b
+    b=c
+    c=a+b
+    print(c, end=" ")
+    
+a=66
+b=99
+for文が処理を開始
+print(a,b)
+c=a
+a=b
+b=c
+for文が一回目の処理を完了
+print(a,b)　←for文が二回目の処理を開始
+    
+a=66
+b=99
+for x in range(5):
+    print(a,b)
+    c=a
+    a=b
+    b=c
+      
