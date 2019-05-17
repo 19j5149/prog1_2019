@@ -1,0 +1,170 @@
+for x in range(1,16):
+    print(x, end=" ")
+    
+for x in range(1,16):
+    if(x>8):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x<8):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x>=8):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x==8):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x!=8):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    print(x%2, end=" " )
+
+for x in range(1,16):
+    if(x%2==1):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x%2==0):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x%3==0):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x%3!=0):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x%4==2):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x%4!=2):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x%7==1):
+        print(x,end=" ")
+    else:
+        print("*", end=" ")
+ 
+ for x in range(1,16):
+    if(x<=8):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x<=8):
+        if(x%2==0):
+            print(x, end=" ")
+        else:
+            print("*", end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x<=8 and x%2==0):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+for x in range(1,16):
+    if(x<=8):
+        print(x, end=" ")  
+    else:
+         if(x%2==0):
+            print(x, end=" ")
+         else:
+            print("*", end=" ")
+
+for x in range(1,16):
+    if(x<=8 or x%2==0):
+        print(x, end=" ")
+    else:
+        print("*", end=" ")
+
+h=173.5
+w=75.5
+b=10000*w/h**2
+if(b<=18.5):
+    print("classA",end=" ")
+else:
+    print("classX",end=" ")
+
+h=173.5
+w=75.5
+b=10000*w/h**2
+if(b<=18.5):
+    if(18.5<b<=25.0):
+        print("classB",end=" ")
+    else:
+        print("classX",end=" ")
+else:
+    print("classX",end=" ")
+
+h=173.5
+w=75.5
+b=10000*w/h**2
+if(b<=18.5):
+    if(18.5<b<=25.0):
+        print("classB",end=" ")
+    else:
+        print("classX",end=" ")
+else:
+    if(25.0<b<=30.0):
+        print("classC",end=" ")
+    else:
+        print("classD",end=" ")
+
+h=8000
+w=20000000
+b=10000*w/h**2
+if(b<=18.5):
+    if(18.5<b<=25.0):
+        print("classB",end=" ")
+    else:
+        print("classX",end=" ")
+else:
+    if(25.0<b<=30.0):
+        print("classC",end=" ")
+    else:
+        print("classD(Your BMI is",b,")")
+    
+for x in range(1,100):
+    print(x, end=" ")
+print()
+
+for x in range(1,100):
+    print(x, end=" ")
+    if(x==50):
+        break
+
