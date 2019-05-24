@@ -1,0 +1,139 @@
+n=5
+for y in range(n):
+    for x in range(y+1):
+        print("*",end=" ")
+    print()
+
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge()
+
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge()
+hoge()
+hoge()
+
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge(5)
+
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+hoge(5)
+hoge(10)
+hoge(15)
+
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+for x in range(1,10):
+    hoge(x)
+
+n=5
+for y in range(n):
+    for x in range(n-y):
+        print("*",end=" ")
+    print()
+
+def hoge():
+    n=5
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+def moga():
+    n=5
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+        print()
+hoge()
+moga()
+
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+        print()
+        
+hoge(5)
+moga(5)
+
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+        print()
+hoge(10)
+moga(10)
+
+def hoge(n):
+    for y in range(n):
+        for x in range(y+1):
+            print("*",end=" ")
+        print()
+def moga(n):
+    for y in range(n):
+        for x in range(n-y):
+            print("*",end=" ")
+        print()
+for x in range(1,10):
+    hoge(x)
+    moga(x)
+
+for x in range(1,10):
+    y=2*x
+    print(y,end=" ")
+
+def func(x):
+        y=2*x
+        print(y,end=" ")
+for x in range(1,10):
+    func(x)
+   
+ def func(x):
+        y=2*x
+        return y
+    
+for x in range(1,10):
+    y=func(x)
+    print(y,end=" ")
+
+n=6(仮）
+r=4
+bunbo=1
+for x in range(r):
+    bunbo=1*2*3*4
+bunshi=1
+for x in range(n):
+    bunshi=6*5*4*3
+c=bunshi/bunbo
+print(c)
+    
