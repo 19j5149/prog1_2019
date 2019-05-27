@@ -1,0 +1,80 @@
+print("(",end="")
+print("^",end="")
+print("_",end="")
+print("^",end="")
+print(")",end="")
+
+def emoji():
+    print("(",end="")
+    print("^",end="")
+    print("_",end="")
+    print("^",end="")
+    print(")",end="")
+emoji()
+
+def emoji():
+    print("(",end="")
+    print("^",end="")
+    print("_",end="")
+    print("^",end="")
+    print(")",end="")
+for x in  range(5):
+    emoji()
+
+def emoji(eye):
+    print("(",end="")
+    print(eye,end="")
+    print("_",end="")
+    print(eye,end="")
+    print(")",end="")
+for x in  range(5):
+    emoji("T")
+
+def emoji(eye):
+    print("(",end="")
+    print(eye,end="")
+    print("_",end="")
+    print(eye,end="")
+    print(")",end="")
+def emoji_table(m,n):
+    for y in range(n):
+        for x in range(m):
+            if((x+y)%2==1):
+                emoji("*")
+            else:
+                emoji("-")
+        print()
+        
+emoji_table(8,4)
+
+a=9
+b=10
+c=17
+l=a+b+c
+p=l/2
+s=(p*(p-a)*(p-b)*(p-c))**(1/2)
+print(s)
+
+def heron(a,b,c):
+    l=a+b+c
+    p=l/2
+    s=(p*(p-a)*(p-b)*(p-c))**(1/2)
+    return s
+a=9
+b=10
+c=17
+s=heron(a,b,c)
+print(s)
+
+def heron(a,b,c):
+    l=a+b+c
+    p=l/2
+    s=(p*(p-a)*(p-b)*(p-c))**(1/2)
+    return s
+def heron_table():
+    for a in range(1,101):
+        for b in range(1,101):
+            for c in range(1,101):
+                if(a<=b<=c and heron(a,b,c)==a+b+c):
+                    print(a,b,c)
+heron_table()
