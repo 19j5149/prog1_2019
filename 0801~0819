@@ -1,0 +1,139 @@
+a=66
+b=88
+r=(a+b)/2
+print("average is",r)
+
+def ave_2():
+    a=66
+    b=88
+    r=(a+b)/2
+    print("average is",r)
+ave_2()
+
+def ave_2():
+    a=66
+    b=88
+    r=(a+b)/2
+    return (r)
+r=ave_2()
+print("average is",r)
+
+def ave_2(a,b):
+    r=(a+b)/2
+    return (r)
+r=ave_2(66,88)
+print("average is",r)
+
+def ave_4(a,b,c,d):
+    r=(a+b+c+d)/4
+    return (r)
+r=ave_4(1,2,3,4)
+print("average is",r)
+
+a=[1,2,3,4]
+print(a[0],end=" ")
+print(a[1],end=" ")
+print(a[2],end=" ")
+print(a[3],end=" ")
+
+a=[1,2,3,4]
+for x in range(4):
+    print(x+1,end=" ")
+   
+a=[1,2,3,4]
+for x in range(len(a)):
+    print(x+1,end=" ")
+
+a=[1,2,3,4]
+s=0
+for x in range(len(a)):
+    s=s+a[x]
+r=s/len(a)
+print("average is",r)
+
+def ave_n(a):
+    s=0
+    for x in range(len(a)):
+        s=s+a[x]
+    r=s/len(a)
+    return r
+a=[1,2,3,4,5,6,7,8]
+r=ave_n(a)
+print("average is",r)
+
+v=[0 for x in range(4)]
+print(v[0],end=" ")
+print(v[1],end=" ")
+print(v[2],end=" ")
+print(v[3],end=" ")
+
+v=[0 for x in range(4)]
+for x in range(len(v)):
+    print(v[0],end=" ")
+
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    print(v[0],end=" ")
+
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    v[x] = x
+for x in range(len(v)):
+    print(v[x],end=" ")
+
+v=[0 for x in range(10)]
+for x in range(len(v)):
+    v[x] = 2*x
+for x in range(len(v)):
+    print(v[x],end=" ")
+
+h=[0 for x in range(10)]
+for x in range(len(h)):
+    h[x]=(16*x)%11+160
+for x in range(len(h)):
+    print(h[x],end=" ")
+print()
+w=[0 for x in range(10)]
+for x in range(len(w)):
+    w[x]=(6*x)%11+60
+for x in range(len(w)):
+    print(w[x],end=" ")
+
+h=160
+w=60
+b=10000*w/(h*h)
+print("BMI :",b)
+
+def bmi_1(h,w):
+    b=10000*w/(h*h)
+    return b
+b=bmi_1(160,60)
+print("BMI :",b)
+
+def bmi_1(h,w):
+    b=10000*w/(h*h)
+    return b
+def bmi_n(h,w):
+    b=[0 for x in range(len(h))]
+    for x in range(len(h)):
+        b[x]=bmi_1(h[x],w[x])
+    return b
+h=[0 for x in range(10)]
+for x in range(len(h)):
+    h[x]=(16*x)%11+160
+for x in range(len(h)):
+    print(h[x],end=" ")
+print()
+w=[0 for x in range(10)]
+for x in range(len(w)):
+    w[x]=(6*x)%11+60
+for x in range(len(w)):
+    print(w[x],end=" ")
+print()
+b=bmi_n(h,w)
+for x in range(len(b)):
+    print(b[x],end=" ")
+   
+
+
+
