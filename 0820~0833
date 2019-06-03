@@ -1,0 +1,113 @@
+n=10
+score=[0 for x in range(10)]
+for x in range(len(score)):
+    score[x]=(89*(x+1))%101
+for x in range(len(score)):
+    print(score[x],end="\t")
+    
+n=10
+score=[0 for x in range(10)]
+for x in range(len(score)):
+    score[x]=(89*(x+1))%101
+for x in range(len(score)):
+    print(score[x],end="\t")
+print()
+rank=[0 for x in range(10)]
+for x in range(len(rank)):
+    for y in range(10):
+        if(score[x]<=score[y]):
+            rank[x]=rank[x]+1
+    print(rank[x],end="\t")
+
+a=[7,7,7]
+print(a[0],end=" ")
+print(a[1],end=" ")
+print(a[2],end=" ")
+
+a=[[0,1,2][0,1,2][0,1,2]]
+print(a[0],end=" ")
+print(a[1],end=" ")
+print(a[2],end=" ")
+
+
+
+a=[[0,1,2],[0,1,2],[0,1,2]]
+print(a[0][0],a[0][1],a[0][2])
+print(a[1][0],a[1][1],a[1][2])
+print(a[2][0],a[2][1],a[2][2])
+
+a=[[0,1,2],[0,1,2],[0,1,2]]
+for x in range(3):
+    for y in range(3):
+        print(y,end=" ")
+    print()
+
+a=[[0,1,2],[0,1,2],[0,1,2]]
+a[0][0]=1
+a[0][0]=2
+a[2][1]=0
+a[2][2]=1
+for x in range(3):
+    for y in range(3):
+        print(y,end=" ")
+    print()
+
+a=[7,7,7]
+print(a[0],end=" ")
+print(a[1],end=" ")
+print(a[2],end=" ")
+
+a=[[y for y in range(3)]for x in range(3)]
+print(a[0],end=" ")
+print(a[1],end=" ")
+print(a[2],end=" ")
+
+a=[[y for y in range(3)]for x in range(3)]
+print(a[0][0],a[0][1],a[0][2])
+print(a[1][0],a[1][1],a[1][2])
+print(a[2][0],a[2][1],a[2][2])
+
+a=[[y for y in range(3)]for x in range(3)]
+for x in range(3):
+    for y in range(3):
+        print(y,end=" ")
+    print()
+
+a=[[y for y in range(3)]for x in range(3)]
+a[0][0]=1
+a[0][0]=2
+a[2][1]=0
+a[2][2]=1
+for x in range(3):
+    for y in range(3):
+        print(y,end=" ")
+    print()
+
+m=5
+c=[[0 for n in range(m)]for r in range(m)]
+for n in range(m):
+    for r in range(m):
+        print(c[n][r],end=" ")
+    print()
+
+m=5
+c=[[0 for n in range(m)]for r in range(m)]
+for n in range(m):
+    for r in range(n+1):
+        print(c[n][r],end=" ")
+    print()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
